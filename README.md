@@ -33,6 +33,10 @@ Include the themes css file in your project.
   <link href="../node_modules/@scienceroot/design/theme/scienceroot-theme.css" rel="stylesheet">
 ```
 
+## Development
+
+- `npm run build-theme:watch` (included in `npm run start`) watches for changes in `scr/theme` and compiles SCSS to demo app folder. 
+- `npm run build-theme` (included in `npm run build`) compiles and compresses SCSS to dist folder.
 
 ## ScrLightTheme
 
