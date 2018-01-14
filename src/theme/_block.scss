@@ -1,0 +1,16 @@
+@import '../../node_modules/@angular/material/theming';
+
+@mixin scr-light-main($theme) {
+
+  $fontFamily: map-get($theme, font-family);
+
+  $primary: map-get($theme, primary);
+  $accent: map-get($theme, accent);
+
+  .scr-primary {
+    background-color: mat-color($primary, default);
+    color: mat-color($primary, default-contrast);
+    font-family: Roboto, "Helvetica Neue", sans-serif;
+
+  }
+}
