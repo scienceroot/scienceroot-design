@@ -13,7 +13,7 @@ yarn add @scienceroot/design
 
 ## Usage 
 
-Include the themes css file in your project. 
+Include the themes css and font files in your project. 
 
 ### angular-cli
 
@@ -22,6 +22,10 @@ Include the themes css file in your project.
   {
     "styles": [
        "../node_modules/@scienceroot/design/theme/scienceroot-theme.css"
+    ],
+    "assets": [
+      "../node_modules/@scienceroot/design/theme/font//Canaro-Light-webfont.woff2",
+      "../node_modules/@scienceroot/design/theme/font//Canaro-Light-webfont.woff"
     ]
   }
 ```
@@ -35,8 +39,8 @@ Include the themes css file in your project.
 
 ## Development
 
-- `npm run build-theme:watch` (included in `npm run start`) watches for changes in `scr/theme` and compiles SCSS to demo app folder. 
-- `npm run build-theme` (included in `npm run build`) compiles and compresses SCSS to dist folder.
+- `npm run build-theme-development` (included in `npm run start`) initially copys relevant theme files to demo folder and then watches for changes in `scr/theme` and compiles SCSS to demo app folder. 
+- `npm run build-theme` (included in `npm run build`) compiles compressed SCSS and copies all assets to dist folder.
 
 ## ScrLightTheme
 
@@ -51,6 +55,11 @@ Include the themes css file in your project.
 - `scr-primary` - Background color primary, font color primary-contrast.
 
 ## Typography
+
+### Font Family
+```css
+font-family: 'Canaro Light';
+```
 
 ### Font color
 - `scr-primary-text`
