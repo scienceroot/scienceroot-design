@@ -1,5 +1,7 @@
 @import '../../node_modules/@angular/material/theming';
 
+@import "./font/stylesheet.css";
+
 @mixin scr-light-typography($theme) {
 
   $primary: map-get($theme, primary);
