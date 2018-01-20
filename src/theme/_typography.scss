@@ -1,6 +1,13 @@
 @import '../../node_modules/@angular/material/theming';
 
-@import "./font/stylesheet.css";
+@font-face {
+  font-family: 'Canaro Light';
+  src: url('font/Canaro-Light-webfont.woff2') format('woff2'),
+  url('font/Canaro-Light-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
 
 @mixin scr-light-typography($theme) {
 
