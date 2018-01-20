@@ -30,7 +30,7 @@
     "build-demo": "tsc -p src/demo/",
     "build-demo:watch": "tsc -p src/demo/ -w",
 
-    "build-theme": "node src/theme/build.js",
+    "build-theme": "node src/theme/build.js && npm run build-styles",
     "build-theme-development": "node src/theme/build.js -- dev && npm run build-styles:watch",
 
     "build-styles": "node-sass src/theme/scienceroot-theme.scss -o dist/theme --output-style compressed",
