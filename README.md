@@ -22,10 +22,6 @@ Include the themes css and font files in your project.
   {
     "styles": [
        "../node_modules/@scienceroot/design/theme/scienceroot-theme.css"
-    ],
-    "assets": [
-      "../node_modules/@scienceroot/design/theme/font//Canaro-Light-webfont.woff2",
-      "../node_modules/@scienceroot/design/theme/font//Canaro-Light-webfont.woff"
     ]
   }
 ```
