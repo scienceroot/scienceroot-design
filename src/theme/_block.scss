@@ -10,7 +10,6 @@
   .scr-primary {
     background-color: mat-color($primary, default);
     color: mat-color($primary, default-contrast);
-    font-family: Roboto, "Helvetica Neue", sans-serif;
-
+    font-family: $fontFamily;
   }
 }

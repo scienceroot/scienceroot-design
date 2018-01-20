@@ -3,7 +3,11 @@
 @import 'typography';
 @import 'block';
 
-@include mat-core();
+$general-typography: mat-typography-config(
+  $font-family: '"Canaro Light", "Helvetica Neue", sans-serif'
+);
+
+@include mat-core($general-typography);
 
 // Define the palettes for your theme using the Material Design palettes available in palette.scss
 // (imported above). For each palette, you can optionally specify a default, lighter, and darker
