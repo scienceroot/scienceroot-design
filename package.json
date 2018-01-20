@@ -23,13 +23,19 @@
     "clean": "rimraf out-tsc dist",
     "prebuild": "npm run clean",
     "build": "node build.js && npm run build-theme",
+
     "build-demo": "tsc -p src/demo/",
     "build-demo:watch": "tsc -p src/demo/ -w",
-    "build-theme": "node-sass src/theme/scienceroot-theme.scss -o dist/theme --output-style compressed",
-    "build-theme:watch": "node-sass -w src/theme -o src/demo",
+
+    "build-theme": "node src/theme/build.js",
+    "build-theme-development": "node src/theme/build.js -- dev && npm run build-styles:watch",
+
+    "build-styles": "node-sass src/theme/scienceroot-theme.scss -o dist/theme --output-style compressed",
+    "build-styles:watch": "node-sass -w src/theme -o src/demo/theme",
+
     "serve": "lite-server -c=bs-config.json",
     "prestart": "npm run build-demo",
-    "start": "concurrently \"npm run build-theme:watch\" \"npm run build-demo:watch\" \"npm run serve\""
+    "start": "concurrently \"npm run build-theme-development\" \"npm run build-demo:watch\" \"npm run serve\""
   },
   "peerDependencies": {
     "@angular/animations": "5.1.x",
@@ -56,6 +62,7 @@
     "@angular/router": "5.1.x",
     "camelcase": "4.1.x",
     "concurrently": "3.5.x",
+    "copy": "0.3.x",
     "core-js": "2.5.x",
     "glob": "7.1.x",
     "lite-server": "2.3.x",
