@@ -9,10 +9,20 @@
 
 }
 
+$general-typography: mat-typography-config(
+  $font-family: '"Canaro Light", "Helvetica Neue", sans-serif'
+);
+
 @mixin scr-light-typography($theme) {
 
   $primary: map-get($theme, primary);
   $accent: map-get($theme, accent);
+
+  $fontFamily: mat-font-family($general-typography);
+
+  body {
+    font-family: $fontFamily;
+  }
 
   .scr-primary-text {
     color: mat-color($primary);
