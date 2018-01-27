@@ -16,7 +16,7 @@
     "url": ""
   },
   "publishConfig": {
-    "registry": "http://npm.scienceroots.com"
+    "registry": "https://npm.scienceroots.com"
   },
   "engines": {
     "node": ">= 6.9.0",
