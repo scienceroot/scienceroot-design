@@ -4,7 +4,7 @@ import {Component, Input} from "@angular/core";
   selector: 'scr-loading',
   template: `
     <bd-loading [waitFor]="waitFor">
-      <div>
+      <div onInit>
         <ng-content select="[onInit]">
         </ng-content>
       </div>
@@ -22,7 +22,7 @@ import {Component, Input} from "@angular/core";
           <span class="dots"></span>
         </div>
       </div>
-      <div>
+      <div onFinish>
         <ng-content select="[onFinish]">
         </ng-content>
       </div>

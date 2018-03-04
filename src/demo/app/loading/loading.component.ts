@@ -22,15 +22,17 @@ import {Subject} from "rxjs/Subject";
           <h2>
             Add dynamically
           </h2>
-          <div>
-            <button (click)="dynamic()">
-              Set Promise (30s)
-            </button>
-          </div>
           <scr-loading [waitFor]="dynamicReq">
-            <h3>
-              Dynamic result
-            </h3>
+            <div onInit>
+              <button (click)="dynamic()">
+                Set Promise
+              </button>
+            </div>
+            <div onFinish>
+              <h3>
+                Dynamic result
+              </h3>
+            </div>
           </scr-loading>
         </div>
       </div>
@@ -39,24 +41,22 @@ import {Subject} from "rxjs/Subject";
       <div fxLayout="row">
         <div fxFlex="">
           <h1>Success</h1>
-          <h2>
-            Load Promise
-          </h2>
           <scr-loading [waitFor]="loadPromise">
-            <h3>
-              Some result
-            </h3>
+            <div onFinish>
+              <h3>
+                Some result
+              </h3>
+            </div>
           </scr-loading>
         </div>
         <div fxFlex="">
           <h1>Failure</h1>
-          <h2>
-            Load Promise
-          </h2>
           <scr-loading [waitFor]="loadPromiseFailure">
-            <h3>
-              Some result
-            </h3>
+            <div onFinish>
+              <h3>
+                Some result
+              </h3>
+            </div>
           </scr-loading>
         </div>
       </div>
@@ -80,7 +80,7 @@ export class ScrLoadingDemoComponent {
   }
 
   public dynamic() {
-    this.dynamicReq = new Promise(resolve => setTimeout(resolve, 30000)).then(() => console.log('finished dynamic'));
+    this.dynamicReq = new Promise(resolve => setTimeout(resolve, 3000)).then(() => console.log('finished dynamic'));
   }
 
   private success(milliseconds: number) {
