@@ -4,6 +4,10 @@ import {Component, Input} from "@angular/core";
   selector: 'scr-loading',
   template: `
     <bd-loading [waitFor]="waitFor">
+      <div>
+        <ng-content select="[onInit]">
+        </ng-content>
+      </div>
       <div onLoad>
         <div class="container">
           <span class="dots"></span>

@@ -77,6 +77,6 @@
     "zone.js": "0.8.x"
   },
   "dependencies": {
-    "@bindoc/loading": "^1.0.0"
+    "@bindoc/loading": "1.x.x"
   }
 }

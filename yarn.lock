@@ -83,9 +83,9 @@
   dependencies:
     tslib "^1.7.1"
 
-"@bindoc/loading@^1.0.0":
-  version "1.0.0"
-  resolved "https://npm.scienceroots.com/@bindoc%2floading/-/loading-1.0.0.tgz#8501ee6bc196e7c1386302a5abd1223bfb04eb7d"
+"@bindoc/loading@1.x.x":
+  version "1.0.1"
+  resolved "https://npm.scienceroots.com/@bindoc%2floading/-/loading-1.0.1.tgz#a8c775afb2b9ba900290af95389277822df7e06a"
 
 abbrev@1:
   version "1.1.1"
