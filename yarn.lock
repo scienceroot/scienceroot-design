@@ -83,6 +83,10 @@
   dependencies:
     tslib "^1.7.1"
 
+"@bindoc/loading@^1.0.0":
+  version "1.0.0"
+  resolved "https://npm.scienceroots.com/@bindoc%2floading/-/loading-1.0.0.tgz#8501ee6bc196e7c1386302a5abd1223bfb04eb7d"
+
 abbrev@1:
   version "1.1.1"
   resolved "https://registry.yarnpkg.com/abbrev/-/abbrev-1.1.1.tgz#f8f2c887ad10bf67f634f005b6987fed3179aac8"
@@ -528,9 +532,9 @@ cookie@0.3.1:
   version "0.3.1"
   resolved "https://registry.yarnpkg.com/cookie/-/cookie-0.3.1.tgz#e7e0a1f9ef43b4c8ba925c5c5a96e806d16873bb"
 
-copy@^0.3.1:
+copy@0.3.x:
   version "0.3.1"
-  resolved "https://registry.yarnpkg.com/copy/-/copy-0.3.1.tgz#c65a3cda2c434cec21246e1914b6dba97e3364e3"
+  resolved "https://npm.scienceroots.com/copy/-/copy-0.3.1.tgz#c65a3cda2c434cec21246e1914b6dba97e3364e3"
   dependencies:
     async-each "^1.0.0"
     bluebird "^3.4.1"

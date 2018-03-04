@@ -76,5 +76,7 @@
     "typescript": "2.5.x",
     "zone.js": "0.8.x"
   },
-  "dependencies": {}
+  "dependencies": {
+    "@bindoc/loading": "^1.0.0"
+  }
 }
