@@ -1,6 +1,6 @@
 {
   "name": "@scienceroot/design",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "",
   "main": "./design.umd.js",
   "module": "./design.es5.js",
