@@ -10,6 +10,9 @@ import { Component } from '@angular/core';
           <a [routerLink]="['']">Home</a>
         </li>
         <li>
+          <a [routerLink]="['styles']">Styles</a>
+        </li>
+        <li>
           <a [routerLink]="['loading']">Loading</a>
         </li>
         <li>

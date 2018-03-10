@@ -17,10 +17,23 @@ $general-typography: mat-typography-config(
 
   $primary: map-get($theme, primary);
   $accent: map-get($theme, accent);
+  $warn: map-get($theme, warn);
 
   $fontFamily: mat-font-family($general-typography);
 
   body {
     font-family: $fontFamily;
+  }
+
+  .scr-primary-text {
+    color: mat-color($primary, default);
+  }
+
+  .scr-accent-text {
+    color: mat-color($accent, default);
+  }
+
+  .scr-warn-text {
+    color: mat-color($warn, default);
   }
 }
