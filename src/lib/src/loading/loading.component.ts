@@ -9,17 +9,22 @@ import {Component, Input} from "@angular/core";
         </ng-content>
       </div>
       <div onLoad>
-        <div class="container">
-          <span class="dots"></span>
-          <span class="dots"></span>
-          <span class="dots"></span>
-          <span class="dots"></span>
-          <span class="dots"></span>
-          <span class="dots"></span>
-          <span class="dots"></span>
-          <span class="dots"></span>
-          <span class="dots"></span>
-          <span class="dots"></span>
+        <div  fxLayout="row"
+              fxLayoutAlign="center">
+          <div fxFlex="120px">
+            <div class="container">
+              <span class="dots"></span>
+              <span class="dots"></span>
+              <span class="dots"></span>
+              <span class="dots"></span>
+              <span class="dots"></span>
+              <span class="dots"></span>
+              <span class="dots"></span>
+              <span class="dots"></span>
+              <span class="dots"></span>
+              <span class="dots"></span>
+            </div>
+          </div>
         </div>
       </div>
       <div onFinish>
