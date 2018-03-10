@@ -12,6 +12,9 @@ import { Component } from '@angular/core';
         <li>
           <a [routerLink]="['loading']">Loading</a>
         </li>
+        <li>
+          <a [routerLink]="['search-bar']">SearchBar</a>
+        </li>
       </ul>
     </div>
 
