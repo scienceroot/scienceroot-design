@@ -5,9 +5,12 @@
   $primary: map-get($theme, primary);
   $accent: map-get($theme, accent);
 
+  $inactive: #000;
+  $focus: mat-color($accent, default);
+
   .scr-search-bar {
     background-color: transparent;
-    color: #ffffff;
+    color: $inactive;
 
     mat-icon{
       margin: 0 8px;
@@ -19,28 +22,28 @@
 
 
     .mat-input-element {
-      caret-color: #fff;
+      caret-color: $inactive;
     }
 
     .mat-form-field-underline {
-      background-color: #fff;
+      background-color: $inactive;
     }
 
     .mat-form-field-label {
       font-size: 1.5em;
       top: 0.9em;
-      color: rgba(255,255,255,0.87);
+      color: $inactive;
     }
 
     .mat-focused {
-      color: mat-color($accent, default);
+      color: $focus;
 
       .mat-form-field-label {
-        color: mat-color($accent, default);
+        color: $focus;
       }
 
       .mat-form-field-ripple {
-        background-color: mat-color($accent, default);
+        background-color: $focus;
       }
     }
   }

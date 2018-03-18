@@ -23,7 +23,7 @@ import {Component} from "@angular/core";
     .bar {
       padding: 0 24px;
       height: 64px;
-      background-color: #0F0F1F;
+      background-color: #fff;
     }
   `]
 })

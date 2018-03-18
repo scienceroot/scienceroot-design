@@ -1,7 +1,9 @@
 @import '../../../node_modules/@angular/material/theming';
 
+
 @import 'typography';
 @import 'block';
+@import 'palette';
 
 @import '../index';
 
@@ -10,8 +12,8 @@
 // Define the palettes for your theme using the Material Design palettes available in palette.scss
 // (imported above). For each palette, you can optionally specify a default, lighter, and darker
 // hue.
-$scr-light-primary: mat-palette($mat-blue);
-$scr-light-accent:  mat-palette($mat-light-green, 500, 300, 700);
+$scr-light-primary: mat-palette($scr-blue);
+$scr-light-accent:  mat-palette($scr-purple, 500, 300, 700);
 
 $scr-light-warn:    mat-palette($mat-red);
 
