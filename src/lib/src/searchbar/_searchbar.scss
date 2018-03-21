@@ -5,7 +5,7 @@
   $primary: map-get($theme, primary);
   $accent: map-get($theme, accent);
 
-  $inactive: #000;
+  $inactive: #fff;
   $focus: mat-color($accent, default);
 
   .scr-search-bar {

@@ -62,7 +62,7 @@ import {Component, Input} from "@angular/core";
       animation: animBefore 1s linear infinite;
       -webkit-animation-delay: -0.9s;
       animation-delay: -0.9s;
-      background-color: #2196F3;
+      background-color: #0c4ff1;
     }
     .dots:nth-child(1):after {
       -webkit-transform: translateY(200%);
@@ -71,7 +71,7 @@ import {Component, Input} from "@angular/core";
       animation: animAfter 1s linear infinite;
       -webkit-animation-delay: -0.9s;
       animation-delay: -0.9s;
-      background-color: #0D47A1;
+      background-color: #8845fa;
     }
     .dots:nth-child(2):before {
       -webkit-transform: translateY(-200%);
@@ -80,7 +80,7 @@ import {Component, Input} from "@angular/core";
       animation: animBefore 1s linear infinite;
       -webkit-animation-delay: -1.8s;
       animation-delay: -1.8s;
-      background-color: #2196F3;
+      background-color: #0c4ff1;
     }
     .dots:nth-child(2):after {
       -webkit-transform: translateY(200%);
@@ -89,7 +89,7 @@ import {Component, Input} from "@angular/core";
       animation: animAfter 1s linear infinite;
       -webkit-animation-delay: -1.8s;
       animation-delay: -1.8s;
-      background-color: #0D47A1;
+      background-color: #8845fa;
     }
     .dots:nth-child(3):before {
       -webkit-transform: translateY(-200%);
@@ -98,7 +98,7 @@ import {Component, Input} from "@angular/core";
       animation: animBefore 1s linear infinite;
       -webkit-animation-delay: -2.7s;
       animation-delay: -2.7s;
-      background-color: #2196F3;
+      background-color: #0c4ff1;
     }
     .dots:nth-child(3):after {
       -webkit-transform: translateY(200%);
@@ -107,7 +107,7 @@ import {Component, Input} from "@angular/core";
       animation: animAfter 1s linear infinite;
       -webkit-animation-delay: -2.7s;
       animation-delay: -2.7s;
-      background-color: #0D47A1;
+      background-color: #8845fa;
     }
     .dots:nth-child(4):before {
       -webkit-transform: translateY(-200%);
@@ -116,7 +116,7 @@ import {Component, Input} from "@angular/core";
       animation: animBefore 1s linear infinite;
       -webkit-animation-delay: -3.6s;
       animation-delay: -3.6s;
-      background-color: #2196F3;
+      background-color: #0c4ff1;
     }
     .dots:nth-child(4):after {
       -webkit-transform: translateY(200%);
@@ -125,7 +125,7 @@ import {Component, Input} from "@angular/core";
       animation: animAfter 1s linear infinite;
       -webkit-animation-delay: -3.6s;
       animation-delay: -3.6s;
-      background-color: #0D47A1;
+      background-color: #8845fa;
     }
     .dots:nth-child(5):before {
       -webkit-transform: translateY(-200%);
@@ -134,7 +134,7 @@ import {Component, Input} from "@angular/core";
       animation: animBefore 1s linear infinite;
       -webkit-animation-delay: -4.5s;
       animation-delay: -4.5s;
-      background-color: #2196F3;
+      background-color: #0c4ff1;
     }
     .dots:nth-child(5):after {
       -webkit-transform: translateY(200%);
@@ -143,7 +143,7 @@ import {Component, Input} from "@angular/core";
       animation: animAfter 1s linear infinite;
       -webkit-animation-delay: -4.5s;
       animation-delay: -4.5s;
-      background-color: #0D47A1;
+      background-color: #8845fa;
     }
     .dots:nth-child(6):before {
       -webkit-transform: translateY(-200%);
@@ -152,7 +152,7 @@ import {Component, Input} from "@angular/core";
       animation: animBefore 1s linear infinite;
       -webkit-animation-delay: -5.4s;
       animation-delay: -5.4s;
-      background-color: #2196F3;
+      background-color: #0c4ff1;
     }
     .dots:nth-child(6):after {
       -webkit-transform: translateY(200%);
@@ -161,7 +161,7 @@ import {Component, Input} from "@angular/core";
       animation: animAfter 1s linear infinite;
       -webkit-animation-delay: -5.4s;
       animation-delay: -5.4s;
-      background-color: #0D47A1;
+      background-color: #8845fa;
     }
     .dots:nth-child(7):before {
       -webkit-transform: translateY(-200%);
@@ -170,7 +170,7 @@ import {Component, Input} from "@angular/core";
       animation: animBefore 1s linear infinite;
       -webkit-animation-delay: -6.3s;
       animation-delay: -6.3s;
-      background-color: #2196F3;
+      background-color: #0c4ff1;
     }
     .dots:nth-child(7):after {
       -webkit-transform: translateY(200%);
@@ -179,7 +179,7 @@ import {Component, Input} from "@angular/core";
       animation: animAfter 1s linear infinite;
       -webkit-animation-delay: -6.3s;
       animation-delay: -6.3s;
-      background-color: #0D47A1;
+      background-color: #8845fa;
     }
     .dots:nth-child(8):before {
       -webkit-transform: translateY(-200%);
@@ -188,7 +188,7 @@ import {Component, Input} from "@angular/core";
       animation: animBefore 1s linear infinite;
       -webkit-animation-delay: -7.2s;
       animation-delay: -7.2s;
-      background-color: #2196F3;
+      background-color: #0c4ff1;
     }
     .dots:nth-child(8):after {
       -webkit-transform: translateY(200%);
@@ -197,7 +197,7 @@ import {Component, Input} from "@angular/core";
       animation: animAfter 1s linear infinite;
       -webkit-animation-delay: -7.2s;
       animation-delay: -7.2s;
-      background-color: #0D47A1;
+      background-color: #8845fa;
     }
     .dots:nth-child(9):before {
       -webkit-transform: translateY(-200%);
@@ -206,7 +206,7 @@ import {Component, Input} from "@angular/core";
       animation: animBefore 1s linear infinite;
       -webkit-animation-delay: -8.1s;
       animation-delay: -8.1s;
-      background-color: #2196F3;
+      background-color: #0c4ff1;
     }
     .dots:nth-child(9):after {
       -webkit-transform: translateY(200%);
@@ -215,7 +215,7 @@ import {Component, Input} from "@angular/core";
       animation: animAfter 1s linear infinite;
       -webkit-animation-delay: -8.1s;
       animation-delay: -8.1s;
-      background-color: #0D47A1;
+      background-color: #8845fa;
     }
     .dots:nth-child(10):before {
       -webkit-transform: translateY(-200%);
@@ -224,7 +224,7 @@ import {Component, Input} from "@angular/core";
       animation: animBefore 1s linear infinite;
       -webkit-animation-delay: -9s;
       animation-delay: -9s;
-      background-color: #2196F3;
+      background-color: #0c4ff1;
     }
     .dots:nth-child(10):after {
       -webkit-transform: translateY(200%);
@@ -233,7 +233,7 @@ import {Component, Input} from "@angular/core";
       animation: animAfter 1s linear infinite;
       -webkit-animation-delay: -9s;
       animation-delay: -9s;
-      background-color: #0D47A1;
+      background-color: #8845fa;
     }
 
     @-webkit-keyframes animBefore {
